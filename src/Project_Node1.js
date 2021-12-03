@@ -1,4 +1,4 @@
 function enviaremail (nome, email) {
-    console.log ("Encaminhar email para" + email + "que é destinado ao" + nome);
+    console.log ("Encaminhar email para" + nome + "que é destinado ao" + email);
 }
 enviaremail (" lucas ", " lucas.oliver.70@hotmail.com ");
