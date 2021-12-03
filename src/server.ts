@@ -14,12 +14,12 @@ const app = express();
 app.get("/test", (request, response) => {
     //Request => Tudo que está entrando
     //Response => Tudo que está saindo
-    return response.send("Olá NLW");
+    return response.send("Olá Usuário");
 });
 
 app.post("/test-post", (request, response) => {
- return response.send("Olá NLW método POST")
+ return response.send("Olá Usário, esse é o método POST")
 });
 
 // http://localhost:3000
-app.listen(3000, () => console.log("server is running"));
+app.listen(3000, () => console.log("server user running"));
