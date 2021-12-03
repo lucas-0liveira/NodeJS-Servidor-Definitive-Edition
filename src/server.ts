@@ -21,5 +21,5 @@ app.post("/test-post", (request, response) => {
  return response.send("Olá Usuário, esse é o método POST")
 });
 
-// http://localhost:3000
+
 app.listen(3000, () => console.log("server user running"));
