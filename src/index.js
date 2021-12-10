@@ -1,1 +1,0 @@
-console.log("Iniciando o novo projeto NodeJS")
