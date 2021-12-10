@@ -2,8 +2,8 @@ import {Entity, PrimaryColumn, Column, CreateDateColumn, UpdateDateColumn} from 
 
 import {v4 as uuid} from "uuid"
 
-@Entity("users")
-class User {
+@Entity ("users")
+class {
 
     @PrimaryColumn ()
     readonly id: string;
