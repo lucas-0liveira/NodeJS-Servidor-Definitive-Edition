@@ -8,7 +8,7 @@
  */
 
 /**
-* Tipos de Parametros 
+
 * Routes params => http://localhost:3000/produtos/78347583458345
 * Query params =>  http://localhost:3000/produtos?name=teclado&description=tecladobom&
 * Body params => {
