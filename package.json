@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev src/server_V2.ts"
+    "dev": "ts-node-dev src/server_V2.ts",
+    "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
   },
   "repository": {
     "type": "git",
