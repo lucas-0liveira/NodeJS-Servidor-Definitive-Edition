@@ -7,7 +7,9 @@ import "./database";
 
 const app = express();
 
+app.use(express.json());
+
 app.use(router);
 
-// http://localhost:3000
-app.listen(3000, () => console.log(" server user running V2"));
+// http://localhost:3081
+app.listen(3081, () => console.log(" server user running V2"));

@@ -9,7 +9,9 @@ interface IUserRequest {
 class CreateUserService {
 
     async execute ({ name, email, admin}: IUserRequest){
-        const usersRepository = new UsersRepositories();
+        const usersRepository = new UsersRepositories;
+
+        console.log ("email", email);
 
         if(!email){
             throw new Error ("Email incorrect");    
