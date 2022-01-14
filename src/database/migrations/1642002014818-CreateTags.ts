@@ -7,11 +7,11 @@ export class CreateTags1642002014818 implements MigrationInterface {
         await queryRunner.createTable(
             new Table({
                 name: "tags",
-                columns: [
+                columns:[
                   {
                     name: "id",
                     type: "uuid",
-                    isPrimary: true,
+                    isPrimary: true
                 },
                 {
                     name: "name",
@@ -27,9 +27,9 @@ export class CreateTags1642002014818 implements MigrationInterface {
                     type: "timestamp",
                     default: "now()",
                 },
-              ], 
-            })
-        );
+              ] 
+           })
+        )
     }
 
     public async down(queryRunner: QueryRunner): Promise<void> {

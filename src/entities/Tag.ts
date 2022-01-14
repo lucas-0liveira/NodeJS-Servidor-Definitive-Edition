@@ -23,8 +23,8 @@ class Tag {
     @CreateDateColumn()
     updated_at: Date;
 
-    constructor() {
-        if(!this.id) {
+    constructor(){
+        if(!this.id){
             this.id = uuid();
         }
     }
