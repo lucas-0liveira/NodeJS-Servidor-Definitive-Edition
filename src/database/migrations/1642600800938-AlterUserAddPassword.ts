@@ -10,7 +10,7 @@ export class AlterUserAddPassword1642600800938 implements MigrationInterface {
                 type: "varchar",
                 isNullable: true,
             })
-        )
+        );
     }
 
     public async down(queryRunner: QueryRunner): Promise<void> {
